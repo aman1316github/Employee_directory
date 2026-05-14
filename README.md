@@ -67,24 +67,6 @@ This is an example of how to list things you need to use the software and how to
 * Sort employees based on various filters such as alphabetical order, search filters, and search bar.
 * Edit existing employee details and export all employee data into a CSV file. Additionally, change employee roles within the system.
 
-## Execution Flow
-
-* The main HTML skeleton file is located in the src folder, named index.html. All components are found in the components folder and are dynamically attached to the index.html file based on user interactions.
-* In this project, TypeScript is utilized for static type checking to prevent errors and ensure code integrity.
-* To this Project JavaScript files are compiled files of TypeScript Files. If you wish to modify the TypeScript files and run the project, use the following command:
-  ```sh
-  tsc 
-  ```
-* In this task, CSS files are compiled from SCSS. If you wish to modify SCSS files and run the project, use the following command:
-  ```sh
-  sass --no-source-map scss:styles
-  ```
-
-> [!IMPORTANT]\
-> To run the task, start your local server. If you're using Visual Studio Code, it will run on port 5501 by default. Please ensure the port's availability before running. 
-You can adjust the port settings in the <b>.vscode/settings.json</b> file if needed.
-
-
 
 
 ## Acknowledgments
